@@ -18,7 +18,7 @@ This library can helpful if anyone helps. Feel free to contribute and use.
 
 ### Usage Example 
 
-`var TCNO  = new TIValidation(); TCNO.validate('argument'));`
+`var TCNO  = new TIValidation(); TCNO.validate('85729273728'));`
 
 ## Installation
 
