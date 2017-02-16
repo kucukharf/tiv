@@ -65,8 +65,8 @@ TIValidation.prototype = {
     CalculateLastDigits: function(argument) {
 
         var _argument = argument.substring(0, 9).split('').map(parseFloat);
-        var _firstGroup = this.sumArrayValues(this.getIndiceArray(this.options._first, _argument));
-        var _secondGroup = this.sumArrayValues(this.getIndiceArray(this.options._second, _argument));
+        var _firstGroup = this.sumArrayValues(this.getIndiceArray(this.algorythm._firstG, _argument));
+        var _secondGroup = this.sumArrayValues(this.getIndiceArray(this.algorythm._secondG, _argument));
 
         _argument.push(((_firstGroup * 7) - _secondGroup) % 10);
         _argument.push(this.sumArrayValues(_argument) % 10);
@@ -121,9 +121,9 @@ TIValidation.prototype = {
 
 
 function TIValidation() {
-    this.options = {
-        _first: [1, 3, 5, 7, 9],
-        _second: [2, 4, 6, 8]
+    this.algorythm = {
+        _firstG: [1, 3, 5, 7, 9],
+        _secondG: [2, 4, 6, 8]
     };
 
     this.debug = false;
