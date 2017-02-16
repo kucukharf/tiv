@@ -7,7 +7,7 @@ Validation of a unique personal identification number that is assigned to every 
 
 ## Code Example
 
-Usage Example 
+### Usage Example 
 
 `var TCNO  = new TIValidation(); TCNO.validate('argument'));`
 
