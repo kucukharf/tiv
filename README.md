@@ -12,7 +12,7 @@ This library can helpful if anyone helps. Feel free to contribute and use.
 
 ## Synopsis
 
-...
+... not yet
 
 ## Code Example
 
@@ -26,7 +26,7 @@ You can use with native Javascript you don't need to any other libraries.
 
 
 ## Tests
-...
+... not yet
 
 ## Contributors
 
