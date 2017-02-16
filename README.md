@@ -1,4 +1,4 @@
-# tiv
+# tivJS
 Validation of a unique personal identification number that is assigned to every citizen of Turkey. The identification number is a unique 11-digit number given by the MERNIS computer on the basis of the citizen's registration record that is kept by the registration office. The number does not reflect any personal information about the citizen. It is not possible to change the identification number once applied.
 
 ## Synopsis
